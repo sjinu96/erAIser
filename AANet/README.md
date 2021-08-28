@@ -1,3 +1,24 @@
+# Animation Generating for Articulated Animation
+
+본 저장소는 [github.com/snapresearch](https://github.com/snap-research/articulated-animation)을 기반으로 합니다.
+해당 모델을 새로운 task(물체가 지워진 동영상 내에 새로운 애니메이션을 생성하는)을 적용하기 위해 추가한 모듈과 함수는 아래와 같습니다. 
+
+[]()  
+[]()  
+
+## New Files
+[aa_inference.py](https://github.com/sjinu96/erAIser/blob/main/AANet/aa_inference.py) : 전체적인 inference 과정을 포함하는 class AAInference  
+[preprocessing_aanet.py](https://github.com/sjinu96/erAIser/blob/main/AANet/preprocessing_aanet.py) : inference에 필요한 함수들  
+[preprocessing_davis.py](https://github.com/sjinu96/erAIser/blob/main/AANet/preprocessing_davis.py) : dataset의 정제를 위해 필요한 함수들.  
+[]()  
+[]() 
+
+## P.S.
+> dataset에 대한 설명과 모듈의 기능 및 구조 등은 추후 새로운 저장소에 정리할 예정입니다.
+
+> original code에 대한 설명은 아래에서 볼 수 있습니다.
+[]()  
+[]() 
 # Motion Representations for Articulated Animation
 
 This repository contains the source code for the CVPR'2021 paper [Motion Representations for Articulated Animation](https://arxiv.org/abs/2104.11280) by [Aliaksandr Siarohin](https://aliaksandrsiarohin.github.io/aliaksandr-siarohin-website/), [Oliver  Woodford](https://ojwoodford.github.io/), [Jian Ren](https://alanspike.github.io/), [Menglei Chai](https://mlchai.com/) and [Sergey Tulyakov](http://www.stulyakov.com/). 
